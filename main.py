@@ -61,5 +61,4 @@ async def on_message(message):
             return
         channel = message.channel
         await message.reply("heyo! wassup? I am a bot made by Morpheus to get your VALORANT stats. I am still in development, so please be patient. I am currently in beta, so I might not work properly. If you find any bugs, please report them to Morpheus. Thanks! So to get started, type 'wtp help' to get a list of commands.")
-client.run(
-    "MTA4ODQ3NjQyNTE5NzE5NTM3NA.GEdSmU.W73bbHC9Bvgf7W8PPLrfa2lP59fBHZLCVae4b8")
+client.run({DiscordBotToken})
